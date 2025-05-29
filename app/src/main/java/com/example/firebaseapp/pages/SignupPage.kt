@@ -87,7 +87,7 @@ fun SignupPage(modifier: Modifier, navController: NavController, authViewModel: 
         Spacer(modifier = Modifier.height(8.dp))
 
         TextButton(onClick = {
-            navController.navigate("signup")
+            navController.navigate("login")
         }) {
             Text(text = "Se você possui uma conta, entre!")
         }
